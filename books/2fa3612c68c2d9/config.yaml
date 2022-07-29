@@ -1,0 +1,34 @@
+title: "実務でSymfonyアプリを作るときにだいたい共通してやっていること"
+summary: |-
+  簡単なデモアプリを作りながら、著者自身が実務でSymfonyアプリを作るときにだいたい共通してやっていることを一つひとつ丁寧に解説していきます。
+  時間と紙幅の都合で書ききれなかったテクニックやTipsもたくさんありますが、Symfony初級者〜中級者の方には参考にしていただけると思います💪
+  
+  デモアプリのコードは以下のリポジトリで公開しています。
+  https://github.com/ttskch/symfony-example-app/tree/tagged
+  
+  また、実際に動作するデモ環境もあるので、ぜひ触ってみてください。（Herokuの無料プランなので初回アクセス重いです🙏）
+  https://symfony-example-app-tagged.herokuapp.com/ja/
+
+topics: [PHP, Symfony]
+published: true
+price: 0 # 有料の場合200〜5000
+chapters:
+  - "1"
+  - "2"
+  - "3"
+  - "4"
+  - "5"
+  - "6"
+  - "7"
+  - "8"
+  - "9"
+  - "10"
+  - "11"
+  - "12"
+  - "13"
+  - "14"
+  - "15"
+  - "16"
+  - "17"
+  - "18"
+allow_override: true
