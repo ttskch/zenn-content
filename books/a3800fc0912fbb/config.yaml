@@ -9,7 +9,7 @@ summary: |-
   本書で解説に使用するサンプルコードは、以下のリポジトリにて公開しています。
   https://github.com/ttskch/api-platform-example
 
-topics: [PHP, Symfony, API, rest, apiplatform]
+topics: [php, symfony, api, rest, apiplatform]
 published: true
 price: 0 # 有料の場合200〜5000
 chapters:

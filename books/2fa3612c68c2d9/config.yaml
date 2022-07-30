@@ -9,7 +9,7 @@ summary: |-
   また、実際に動作するデモ環境もあるので、ぜひ触ってみてください。（Herokuの無料プランなので初回アクセス重いです🙏）
   https://symfony-example-app-tagged.herokuapp.com/ja/
 
-topics: [PHP, Symfony]
+topics: [php, symfony]
 published: true
 price: 0 # 有料の場合200〜5000
 chapters:
