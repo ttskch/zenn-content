@@ -15,7 +15,7 @@ PECLで別途インストールするのではなくPHPインストール時に�
 
 phpenv環境自体の作り方は以下の過去記事をご参照ください。
 
-> [[Mac] phpenv＋nodebrewでローカル開発環境を作る手順（保存版） | blog.ttskch](https://blog.ttskch.com/mac-phpenv-nodebrew/)
+> [[Mac] phpenv＋nodebrewでローカル開発環境を作る手順（保存版）](https://zenn.dev/ttskch/articles/2d05e5e3fd6083)
 
 # 結論：環境変数で渡す
 
@@ -49,7 +49,7 @@ PHP_BUILD_INSTALL_EXTENSION="apcu=@ imagick=@" phpenv install 7.4.13
 
 > ただ、以下の過去記事でも紹介しているとおり、最近のphpenvだと `PHP_BUILD_CONFIGURE_OPTS` 環境変数で大量のコンパイルオプションを指定しないと実際にはビルドできないので要注意です。
 > 
-> > [[Mac] phpenv＋nodebrewでローカル開発環境を作る手順（保存版） | blog.ttskch](https://blog.ttskch.com/mac-phpenv-nodebrew/)
+> > [[Mac] phpenv＋nodebrewでローカル開発環境を作る手順（保存版）](https://zenn.dev/ttskch/articles/2d05e5e3fd6083)
 
 # デフォルトでxdebugがインストールされているのはなぜ？
 

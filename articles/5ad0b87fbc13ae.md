@@ -13,7 +13,7 @@ published_at: 2020-12-11
 
 [Symfony Advent Calendar 2020](https://qiita.com/advent-calendar/2020/symfony) の11日目の記事です！🎄🌙
 
-昨日も僕の記事で、[[Symfony] 機能テストでコントローラに注入しているサービスをモックする方法](https://blog.ttskch.com/symfony-how-to-mock-service-on-functional-test/) でした✨
+昨日も僕の記事で、[[Symfony] 機能テストでコントローラに注入しているサービスをモックする方法](https://zenn.dev/ttskch/articles/ab2973d60ead0a) でした✨
 
 > ちなみに、僕はよく [TwitterにもSymfonyネタを呟いている](https://twitter.com/search?q=from%3Attskch%20(symfony%20OR%20doctrine)&src=typed_query&f=live) ので、よろしければぜひ [フォローしてやってください🕊🤲](https://twitter.com/ttskch)
 

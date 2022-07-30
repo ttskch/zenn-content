@@ -17,7 +17,7 @@ published_at: 2020-05-12
 
 タイトルでピンと来る人は少ないかもしれませんが、意外と頻繁に直面する問題です。
 
-以前 [こちらの過去記事](https://blog.ttskch.com/css-fix-scrolling-position-for-hash-link/) にまとめましたが、
+以前 [こちらの過去記事](https://zenn.dev/ttskch/articles/81c7e670b2d6dc) にまとめましたが、
 
 * `position: fixed` なグローバルナビがある
 * `<h2 id="見出し">見出し</h2>` のように見出しタグに `id` を付与している

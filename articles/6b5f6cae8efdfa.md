@@ -23,7 +23,7 @@ published_at: 2020-05-10
 
 # Alfred Workflow
 
-[こちらの過去記事](https://blog.ttskch.com/mac-alfred-workflow-alias/) で軽く触れましたが、togglのタイマーをAlfredからスタート/ストップするために [こちらのWorkflow](http://www.packal.org/workflow/alfred-time-v2) を使っています。
+[こちらの過去記事](https://zenn.dev/ttskch/articles/45f27d84969a15) で軽く触れましたが、togglのタイマーをAlfredからスタート/ストップするために [こちらのWorkflow](http://www.packal.org/workflow/alfred-time-v2) を使っています。
 
 ![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gelakap4bwj30uw060tdt.jpg)
 

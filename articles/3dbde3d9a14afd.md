@@ -44,7 +44,7 @@ class User
 
 ## 1. カスタムバリデーションを作る
 
-[symfony/formで「どちらか片方の入力は必須、かつ両方入力はNG」をバリデーションする | blog.ttskch](https://blog.ttskch.com/symfony-form-exclusive-or-validation/)
+[symfony/formで「どちらか片方の入力は必須、かつ両方入力はNG」をバリデーションする](https://zenn.dev/ttskch/articles/344dcc5980d9be)
 
 こちらの過去記事でも紹介したようにカスタムバリデーションを作ればもちろん実装できます。
 

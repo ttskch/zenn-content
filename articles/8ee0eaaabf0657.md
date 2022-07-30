@@ -13,7 +13,7 @@ published_at: 2021-06-14
 
 # はじめに
 
-先日公開した [ついに、Webアプリでの帳票印刷のベストプラクティスを編み出しました](/web-app-pdf-printing-best-practice) という記事が、はてなブックマークで [1000以上もブックマークされ](https://b.hatena.ne.jp/entry/s/blog.ttskch.com/web-app-pdf-printing-best-practice/) 大変多くの方に読んでいただきました。
+先日公開した [ついに、Webアプリでの帳票印刷のベストプラクティスを編み出しました](https://zenn.dev/ttskch/articles/1f1572cfd2e375) という記事が、はてなブックマークで [1000以上もブックマークされ](https://b.hatena.ne.jp/entry/s/blog.ttskch.comhttps://zenn.dev/ttskch/articles/1f1572cfd2e375/) 大変多くの方に読んでいただきました。
 
 それだけ帳票印刷という分野がいまだに多くの開発者にとって扱いづらく苦労の絶えない領域なのだということだと思います。皆さんいつもお疲れさまです🙏🍵
 
@@ -51,7 +51,7 @@ $ npm install svg-paper
 
 このライブラリを使用する前にそもそもテンプレートとするSVGを [Adobe XD](https://www.adobe.com/jp/products/xd.html) や [Figma](https://www.figma.com/) などを使って作成する必要があります。
 
-この辺りの具体的な方法については（[先日のブログ記事](https://blog.ttskch.com/web-app-pdf-printing-best-practice/) でも簡単に説明しましたが）以下のドキュメントに詳細をまとめてありますので、ご参照ください🙏
+この辺りの具体的な方法については（[先日のブログ記事](https://zenn.dev/ttskch/articles/1f1572cfd2e375) でも簡単に説明しましたが）以下のドキュメントに詳細をまとめてありますので、ご参照ください🙏
 
 [How to prepare SVG template](https://github.com/ttskch/svg-paper/blob/224881ddc46db1e8a1caebd110cf7f6614e0c6d9/docs/how-to-prepare-svg-template.md)
 
