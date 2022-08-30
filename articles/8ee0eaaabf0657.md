@@ -13,7 +13,7 @@ published_at: 2021-06-14
 
 # はじめに
 
-先日公開した [ついに、Webアプリでの帳票印刷のベストプラクティスを編み出しました](https://zenn.dev/ttskch/articles/1f1572cfd2e375) という記事が、はてなブックマークで [1000以上もブックマークされ](https://b.hatena.ne.jp/entry/s/blog.ttskch.comhttps://zenn.dev/ttskch/articles/1f1572cfd2e375/) 大変多くの方に読んでいただきました。
+先日公開した [ついに、Webアプリでの帳票印刷のベストプラクティスを編み出しました](https://zenn.dev/ttskch/articles/1f1572cfd2e375) という記事が、はてなブックマークで [1000以上もブックマークされ](https://b.hatena.ne.jp/entry/s/blog.ttskch.com/web-app-pdf-printing-best-practice/) 大変多くの方に読んでいただきました。
 
 それだけ帳票印刷という分野がいまだに多くの開発者にとって扱いづらく苦労の絶えない領域なのだということだと思います。皆さんいつもお疲れさまです🙏🍵
 
