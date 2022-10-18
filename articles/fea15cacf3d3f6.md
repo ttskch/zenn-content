@@ -57,7 +57,7 @@ todo
 
 これが [Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks) の `pre-commit` フックで実行されるので、以下のようにコミット時に異変に気づくことができるというわけです。
 
-<img width="1736" alt="FfUN1VvVsAEXicU.jpg (78.4 kB)" src="https://img.esa.io/uploads/production/attachments/15064/2022/10/18/77821/4dba242f-bd6a-44bf-96b9-808da280c2f8.jpg">
+![](https://img.esa.io/uploads/production/attachments/15064/2022/10/18/77821/4dba242f-bd6a-44bf-96b9-808da280c2f8.jpg)
 
 > ちなみに、エンティティのファイルにスキーマと無関係な変更を加えることもあるので、あくまで警告文を表示するだけで、強制的にexitまではしないようにしています。
 
