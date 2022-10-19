@@ -23,7 +23,7 @@ window.open(l, '_blank');
 javascript:var%20m=location.href.match(/twitter\.com\/(.+)\/status/);var%20u=m[1];var%20d=new%20Date(document.querySelector('time').getAttribute('datetime'));var%20d2s=(d)=>`${d.toLocaleString().replaceAll('/','-').replace('%20','_')}_JST`;var%20sn=d2s(new%20Date(new%20Date(d).setHours(d.getHours()-1)));var%20un=d2s(new%20Date(new%20Date(d).setHours(d.getHours()+1)));var%20l=encodeURI(`https://twitter.com/search?q=from:${u} since:${sn} until:${un}&f=live`);window.open(l,'_blank');
 ```
 
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h7a9msqnvqj30tk0uajsx.jpg)
+![](https://tva1.sinaimg.cn/large/008vxvgGgy1h7aan3pmrfj30ty0uodhe.jpg)
 
 このブックマークレットをツイートの詳細ページで実行すると、同じ投稿者による前後1時間のツイートの検索結果ページが別タブで開きます。
 
