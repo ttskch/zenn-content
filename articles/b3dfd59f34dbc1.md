@@ -27,6 +27,6 @@ javascript:var%20m=location.href.match(/twitter\.com\/(.+)\/status/);var%20u=m[1
 
 このブックマークレットをツイートの詳細ページで実行すると、同じ投稿者による前後1時間のツイート（RTを含む）の検索結果ページが別タブで開きます。
 
-![](https://img.esa.io/uploads/production/attachments/15064/2022/10/19/77821/89973c7c-1386-477b-9da0-8fdcffc08c79.gif)
+![](https://img.esa.io/uploads/production/attachments/15064/2022/10/19/77821/5be85b50-4761-48d2-b609-caaa99ebb090.gif)
 
 よろしければどうぞ✋
