@@ -294,7 +294,7 @@ $('select option').each(function () {
 
 EntityTypeの `query_builder` オプションやForm Eventsといった機能を活用するとさらに細かい細工ができます。
 
-<https://blog.ttskch.com/symfony-form-query-builder-form-events/>
+<https://zenn.dev/ttskch/articles/81e4e46378a87b>
 
 こちらの記事に詳しくまとめてありますので、興味があれば覗いてみてください。
 
