@@ -36,9 +36,7 @@ class BeforeSend
     public function __invoke(Event $event, EventHint $eventHint): Event
     {
         if (($user = $this->security->getUser()) instanceof User) {
-            $event->setUser(new UserDataBag(
-                $user->getId(),
-            ));
+            $event->setUser(new UserDataBag($user->getId()));
         }
 
         return $event;
