@@ -1,5 +1,5 @@
 ---
-title: "CSS GridでヘッダーだけをStickkにする方法"
+title: "CSS GridでヘッダーだけをStickyにする方法"
 emoji: "🚀"
 type: "tech"
 topics: ["css"]
