@@ -1,6 +1,3 @@
-Copied from: [blog/88e6719f969599](/posts/490)
-
-```
 ---
 title: "nelmio/aliceのcurrentの使い方まとめ"
 emoji: "🤖"
@@ -8,7 +5,6 @@ type: "tech"
 topics: ["php"]
 published: true
 ---
-```
 
 # nelmio/aliceのcurrent
 
