@@ -2,7 +2,7 @@
 title: "Symfony+TwigでTailwind CSS"
 emoji: "🎻"
 type: "tech"
-topics: ["php", "symfony", "tailwindcss"]
+topics: ["php", "symfony", "twig", "tailwindcss"]
 published: true
 published_at: 2024-12-06 07:00
 ---
