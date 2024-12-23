@@ -26,12 +26,48 @@ published: true
 #grid {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 ```
 
 この状態からさらに`header` だけを `position: sticky;` 相当にしたい場合は、以下のようにすればよいというお話です。
 
+# 結論
+
+もともとは次項の不完全な内容を紹介してたのですが、よくよく考えたら普通に以下の方法で対応可能だったので、結果的になんの工夫もない普通の方法をご紹介する記事になってしまいました🙄
+
+```html
+<div id="grid">
+  <header>header</header>
+  <main>main</main>
+  <footer>footer</footer>
+</div>
+```
+
+```css
+#grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+}
+
+/* 以下を追記したのみ */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+```
+
+動作例はこちら。
+
+@[codepen](https://codepen.io/ttskch/pen/VYZWjjq)
+
+# 不完全な方法
+
+実は記事公開当時は以下の内容でご紹介していたのですが、よくよく考えたら普通に上記の方法で対応可能だったのと、それどころか以下の方法だとiPhoneで画面上端をタップしてもページトップにスクロールする挙動が起こらないという致命的な問題があることが分かった（2024年12月現在）ので、以下の内容はあまり参照する意味のない陳腐化した情報です。一応記録のために残すだけ残しておきます🙏
+
+:::details 不完全な方法
 ```html
 <div id="grid">
   <header>header</header>
@@ -46,7 +82,7 @@ published: true
 #grid {
   display: grid;
   grid-template-rows: auto 1fr;
-  height: 100vh;
+  height: 100dvh;
 }
 
 #wrapper {
@@ -59,10 +95,11 @@ published: true
 動作例はこちら。
 
 @[codepen](https://codepen.io/ttskch/pen/eYbJWYg)
+:::
 
-# 追記
+# History APIでのブラウザバック時にスクロール位置が復元しない場合の対処
 
-Next.js 制のアプリでこの実装を使ったところ、`next.config.js` で  `experimental: { scrollRestoration: true }` を設定しているにもかかわらずブラウザバックでスクロール位置が復元しない挙動になってしまいました。
+2024年9月現在、Next.js 制のアプリでこの実装を使ったところ、`next.config.js` で  `experimental: { scrollRestoration: true }` を設定しているにもかかわらずブラウザバックでスクロール位置が復元しない挙動になってしまいました。
 
 調べたところ、History APIの `scrollRestoration` が、ページ全体のスクロール位置の復元しかできない（今回のような実装で `main` の中身だけが `hidden: scroll` によってスクロールされたその位置までは復元できない）仕様のようです。
 
@@ -87,7 +124,7 @@ Next.js 制のアプリでこの実装を使ったところ、`next.config.js` �
 
 ```css
 #wrapper {
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 header {
@@ -97,7 +134,7 @@ header {
 
 footer {
   position: sticky;
-  top: 100vh;
+  top: 100dvh;
 }
 ```
 
